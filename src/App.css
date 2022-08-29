@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+html,
+body{
+  color: white;
+  background-color: aquamarine;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 40px;
+}
+/*titulo*/
+
+h1{
+  color: black;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin: 20px 0;
+}
+.aplicacion-tareas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+/*logo de la aplicacion de tarea*/
+.logo-contenedor{
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.img-logo{
+  width: 300px;
+  height: 300px;
+
+}
+/*lista tarea*/
+.tareas-lista-principal{
+  width: 600px;
+  min-height: 500px;
+  background-color: gainsboro;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 26px;
+
+}
